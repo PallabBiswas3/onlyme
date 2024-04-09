@@ -1,0 +1,68 @@
+/* ourCollection.css */
+
+.ourCollection {
+    margin-top: 20px;
+    display: flex;
+    /* Use flexbox */
+    flex-wrap: wrap;
+    /* Allow flex items to wrap */
+    justify-content: center;
+    /* Center flex items horizontally */
+    background-color: rgba(132, 132, 10, 0.349);
+
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    /* Add margin between cards */
+    width: calc(50% - 20px);
+    /* Set initial width for desktop view */
+    overflow: hidden;
+    background-color: yellow;
+}
+
+.card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(100% - 20px);
+        /* Set width to 100% for mobile view */
+    }
+}

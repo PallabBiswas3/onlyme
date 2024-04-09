@@ -1,0 +1,62 @@
+{
+    "ourCollection": [
+        {
+            "name": "Data Learning",
+            "image": "image4.jpg",
+            "price": "Rs.200",
+            "review": "Best book for beginners"
+        },
+        {
+            "name": "In The Clearing",
+            "image": "image5.jpg",
+            "price": "Rs.200",
+            "review": "Very good book for kids"
+        },
+        {
+            "name": "Calm Your Imflammations",
+            "image": "image6.jpeg",
+            "price": "Rs.600",
+            "review": "Good book for beginners"
+        }
+    ],
+    "bestSelling": [
+        {
+            "name": "Harry Potter",
+            "image": "harry.jpeg",
+            "price": "Rs.300",
+            "review": "Very good book for kids"
+        },
+        {
+            "name": "The Perfection of Yoga",
+            "image": "image2.jpg",
+            "price": "Rs.600",
+            "review": "Ideal for beginners"
+        },
+        {
+            "name": "The Lord of the Rings",
+            "image": "image3.jpg",
+            "price": "Rs.400",
+            "review": "Best book for beginners"
+        }
+    ],
+    "reviews": [
+        {
+            "name": "Rohit",
+            "review": "Engaging plot, dynamic characters, profound themes, captivating narrative style.",
+            "image": "man1.jpeg",
+            "rating": 5
+        },
+        {
+            "name": "Rohana",
+            "review": "Intriguing storyline, vivid imagery, thought-provoking themes, memorable characters, compelling.",
+            "image": "man2.jpeg",
+            "rating": 4
+        },
+        {
+            "name": "Sumit",
+            "review": "Captivating read, rich storytelling, memorable characters, evocative prose, immersive experience.",
+            "image": "man3.avif",
+            "rating": 3
+        }
+    ]
+}
